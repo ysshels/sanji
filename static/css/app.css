@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    color: #505050;
+    line-height: 1.75em;
+    background:#5db9f8;
+}
+
+
+.img{
+    display: block;
+    border-style: none;
+}
+.wrapper {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.main-header .branding {
+    font-size: 3.5em;
+    color: #303030;
+}
+
+.main-header .branding img {
+    max-width: 100%;
+}
+
+.main-navigation {
+    text-align: center;
+    background: #ffffff;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 3px solid #e1e1e1;
+    margin-bottom: 55px;
+}
+
+.main-navigation .menu {
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation .menu li.nav-current {
+    border-bottom: 3px solid #5db9f8;
+    border-bottom: -2px;
+}
+
+.main-navigation .menu li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.main-navigation .menu li a {
+    color: #505050;
+    line-height: 5em;
+    display: block;
+    padding: 0 25px;
+}
+
+
+/**/
+.pic-goods{
+    position: relative;
+}
+
+.red-price{
+    position: absolute;
+    top: 322px;
+    left: 20px;
+}
+
+.text-jg{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.text-sz{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.red-right{
+    position: absolute;
+    right: 23px;
+    top: 260px;
+}
+
+.red-rightd{
+    position: absolute;
+    right: 50px;
+    top: 265px;
+}
+
+.red-righted{
+    position: absolute;
+    right: 20px;
+    top: 260px;
+}
+
+.text-red{
+    color:#ff0101;
+    font-size: 50px;
+
+}
+
+.red-rightt{
+    position: absolute;
+    right: 1px;
+    top: 260px;
+}
+
+.row-box{
+    width: 1100px;
+    height: 765px;
+    border: 15px #0085e2 solid;
+}
+
+.row-box .col-sm-3{
+    border:5px #0085e2 solid;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+
+}
+
+.row-boxes{
+    width: 1100px;
+    height: 765px;
+    border: 15px #0fa110 solid;
+}
+
+.row-boxes .col-sm-3{
+    border:5px #0fa110 solid;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+.row-pad{
+    width: 1100px;
+    height: 765px;
+    border: 15px #f07b1b solid;
+}
+
+.row-pad  .col-sm-6{
+    border:11px #f07b1b solid;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+
+
