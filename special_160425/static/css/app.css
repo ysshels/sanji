@@ -70,13 +70,14 @@ html, body {
     color: #ffffff;
     font-size: 17px;
     font-weight: 500;
+    line-height: 30px;
 }
 
 .text-sz{
     color: #ffffff;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
 }
 .red-right{
     position: absolute;
