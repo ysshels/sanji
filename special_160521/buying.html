@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+    <title>限时秒杀 特价抢购</title>
+
+    <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+
+<body>
+<!--banner图-->
+<div class="wrapper">
+    <img width="100%"    min-width="1280px"  src="static/img/nav/banner.png">
+</div>
+<!--banner图-->
+
+
+<!--限时抢购-->
+<div class="container">
+    <div class="tab-surprise" >
+        <img src="static/img/sallup/xsqg.png">
+    </div>
+    <div class="row row-box ">
+        <div class="col-sm-4  ">
+            <a href="http://www.3j1688.com/goods/detail/1171.html?s=bjd">
+                <img src="static/img/sallup/xsqg1.png">
+            </a>
+        </div>
+        <div class="col-sm-4" style="padding: 0 0" >
+            <a href="http://www.3j1688.com/goods/detail/1161.html?s=bjd">
+                <img src="static/img/sallup/xsqg2.png">
+            </a>
+        </div>
+        <div class="col-sm-4 " style="padding: 0 0 ">
+            <a href="http://www.3j1688.com/goods/detail/1168.html?s=bjd">
+                <img src="static/img/sallup/xsqg3.png">
+            </a>
+        </div>
+    </div>
+</div>
+<!--限时抢购-->
+
+<!--限时秒杀-->
+<div class="container">
+    <div class="tab-surprise" >
+        <img src="static/img/sallki/xsms.png">
+    </div>
+    <div class="row row-box ">
+        <div class="col-sm-4  ">
+            <a href="http://www.3j1688.com/goods/detail/1162.html?s=bjd">
+                <img src="static/img/sallki/xsms1.png">
+            </a>
+        </div>
+        <div class="col-sm-4" style="padding: 0 0" >
+            <a href="http://www.3j1688.com/goods/detail/1220.html?s=bjd">
+                <img src="static/img/sallki/xsms2.png">
+            </a>
+        </div>
+        <div class="col-sm-4 " style="padding: 0 0 ">
+            <a href="http://www.3j1688.com/goods/detail/1066.html?s=bjd">
+                <img src="static/img/sallki/xsms3.png">
+            </a>
+        </div>
+    </div>
+</div>
+<!--限时秒杀-->
+
+<!--新品上市-->
+<div class="container">
+    <div class="tab-surprise" >
+        <img src="static/img/news/xpss.png">
+    </div>
+    <div class="row row-box ">
+        <div class="col-lg-4  ">
+            <a href="http://www.3j1688.com/goods/detail/1219.html?s=bjd">
+                <img src="static/img/news/xpss1.png">
+            </a>
+        </div>
+        <div class="col-lg-4" style="padding: 0 0" >
+            <a href="http://www.3j1688.com/goods/detail/1155.html?s=bjd">
+                <img src="static/img/news/xpss2.png">
+            </a>
+        </div>
+        <div class="col-lg-4 " style="padding: 0 0 ">
+            <a href="http://www.3j1688.com/goods/detail/1225.html?s=bjd">
+                <img src="static/img/news/xpss3.png">
+            </a>
+        </div>
+    </div>
+</div>
+<!--新品上市-->
+
+
+<div class="container">
+    <div class="" >
+        <a href="http://www.3j1688.com/"><img  src="static/img/nav/fhsy.png"></a>
+    </div>
+</div>
+
+<script src="static/js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    /**
+     * 跳转到列表页
+     * @param catNames 要查询的类别名称
+     */
+    function goListView(catNames, brandNames, defaultPrices, searchParam) {
+        $('#js_submit_form').remove();
+        var form = $('<form id="js_submit_form" action="http://www.3j1688.com/listView/list.html" method="post" style="display:none"></form>');
+        var catNamesInput = '<input type="text" name="catNames" value="' + catNames + '"/>';
+        var brandNamesInput = '<input type="text" name="brandNames" value="' + brandNames + '"/>';
+        var pricesInput = '<input type="text" name="defaultPrices" value="' + defaultPrices + '"/>';
+        var searchParamInput = '<input type="text" name="searchParam" value="' + searchParam + '"/>';
+        var sub = '<input type="submit" />';
+        form.append(catNamesInput + brandNamesInput + pricesInput
+                + searchParamInput);
+        form.append(sub);
+        $("body").append(form);
+        //form.submit().click();
+        document.getElementById("js_submit_form").submit();
+    }
+</script>
+</body>
+</html>
